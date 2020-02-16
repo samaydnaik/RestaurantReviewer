@@ -14,7 +14,7 @@
     "express": "^4.16.4",
     "express-sanitizer": "^1.0.5",
     "method-override": "^3.0.0",
-    "mongoose": "^5.4.19"
+    "mongoose": "^5.7.5"
   },
   "devDependencies": {
     "locus": "^2.0.0"
