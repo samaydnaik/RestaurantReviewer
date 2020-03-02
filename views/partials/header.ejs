@@ -9,11 +9,19 @@
         <div class="ui fixed inverted menu">
             <div class="ui container">
                 <div class="header item"><i class="code icon"></i>
-                    Blog Site
+                    ReviewIt
                 </div>
                 <a href="/" class="item">Home</a>
-                <a href="/blogs/new" class="item">New Post</a>
-        
+                <a href="/blogs" class="item">View</a>
+                <%if(!currentUser){%>
+                <a href="/blogs/login" class="item" style="margin-left: 500px;">Login</a>
+                <a href="/blogs/register" class="item">SignUp</a>
+                <%} else{%>
+                <ul style="list-style-type: none;margin-left: 650px;color:white">
+                    <li>Signed in as <%= currentUser.username%></li>
+                </ul>
+                <a href="/logout" class="item">Logout</a>
+                <%}%>
             </div>
         </div>
         

@@ -3,7 +3,7 @@
     <h1 class="LoginPage" style="margin-top:113px;">Welcome to login </h1>
 </center>
 <div class="ui middle aligned center aligned grid">
-    <form class="ui large form error">
+    <form class="ui large form error" action="/blogs/login" method="POST">
     <div class="loginfo">
     <span class="logname">Username</span>
     <br>
@@ -25,4 +25,5 @@
 <button class="ui primary button" style="margin-left: 185px;margin-top: 20px;">Login</button>
     </form>
 </div>
+<center style="margin-top:22px">New User?<a href="/blogs/register">Sign Up</a></center>
 <%include ./partials/footer%>
