@@ -18,3 +18,4 @@
   <li>body-parser</li>
   <li>ejs</li>
 </ul>
+<h3>To login as admin, type your username as "Admin"</h3>
